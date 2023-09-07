@@ -1,0 +1,41 @@
+.card {
+  display: flex;
+  width: 35vw;
+  padding: 25px;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px black;
+  height: 13vw;
+  margin: 15px;
+  border-radius: 15px;
+}
+.card-img {
+  width: 30%;
+}
+.card-head {
+  color: var(--black, #000);
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.card-para {
+  color: #000;
+  /* Body/body1 */
+  font-family: Roboto;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 23px; /* 143.75% */
+  letter-spacing: 0.5px;
+  align-self: stretch;
+}
+@media (min-width: 767px) {
+  .card-head {
+    font-size: 30px;
+  }
+  .card-para {
+    font-size: 20px;
+  }
+}

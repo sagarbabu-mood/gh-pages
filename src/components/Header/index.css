@@ -1,0 +1,81 @@
+.heder-con {
+  height: 30px;
+  width: 80vw;
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.button-icon {
+  outline: none;
+  background: none;
+  border: none;
+}
+.li {
+  list-style: none;
+  margin-top: 5px;
+  text-decoration: underline;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: 80%;
+}
+
+.courses-btn {
+  background: #f27a44;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+.offers-head {
+  font-size: 80%;
+  color: #7d7d7d;
+}
+.offers-div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .button-icon {
+    display: none;
+  }
+  .ul-for-max {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 320px;
+    margin-left: 40px;
+  }
+  .offers-div {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 15px;
+  }
+  .courses-btn {
+    border-radius: 30px;
+    background: #f27a44;
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  .list-items-for-max {
+    margin: 8px;
+  }
+}
+@media (max-width: 767px) {
+  .ul-for-max {
+    display: none;
+  }
+}

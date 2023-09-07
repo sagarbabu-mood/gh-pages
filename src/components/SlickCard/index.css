@@ -1,0 +1,38 @@
+.slickCard {
+  height: 30vh;
+  width: 30vw;
+  border-radius: 15px;
+  box-shadow: 0.5px;
+  margin-bottom: 60px;
+  box-sizing: border-box;
+}
+
+.slice-img {
+  width: 40%;
+}
+.sliceHead {
+  font-size: 15px;
+}
+.slice-para {
+  font-size: 10px;
+}
+.dots-img {
+  width: 20%;
+  margin-left: 15px;
+}
+.con-for-dots-para {
+  display: flex;
+  padding: 10px;
+
+  align-items: center;
+  align-self: stretch;
+}
+@media (min-width: 767px) {
+  .sliceHead {
+    font-size: 15px;
+  }
+  .dots-img {
+    width: 10%;
+    margin-left: 15px;
+  }
+}

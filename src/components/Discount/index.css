@@ -1,0 +1,9 @@
+.img-students {
+  width: 25%;
+}
+
+@media (max-width: 767px) {
+  .img-students {
+    width: 35%;
+  }
+}

@@ -1,0 +1,52 @@
+.home-div {
+  background: rgba(231, 224, 189, 0.25);
+  display: flex;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 35px;
+  width: 100vw;
+}
+.discover-beauty {
+  color: #1f2027;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.tropical-head {
+  font-size: 15px;
+}
+.sign-up-btn {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  border-radius: 30px;
+  background: #f27a44;
+}
+.student-img {
+  width: 25%;
+}
+
+@media (min-width: 767px) {
+  .discover-beauty {
+    color: #1f2027;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+  }
+
+  .tropical-head {
+    color: #1f2027;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100px; /* 125% */
+  }
+}
